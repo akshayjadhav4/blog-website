@@ -4,7 +4,7 @@ date: "2020-07-04"
 description: "Using custom hook helps you extract component logic into reusable functions."
 ---
 
-## What is use of custome hooks ?
+## What is the use of custome hooks ?
 
 A custom hook is basically a JS function which helps to **share logic between two or more components.** It's like a alternative to **render props** and **higher-order components** which we used share stateful logic between components.
 
