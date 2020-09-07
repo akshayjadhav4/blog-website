@@ -27,6 +27,7 @@ const Bio = () => {
             name
             summary
           }
+          siteUrl
           social {
             instagram
           }
@@ -35,7 +36,7 @@ const Bio = () => {
     }
   `)
 
-  const { author, social } = data.site.siteMetadata
+  const { author, social, siteUrl } = data.site.siteMetadata
   return (
     <div
       style={{
@@ -59,8 +60,9 @@ const Bio = () => {
       <p>
         Written by <strong>{author.name}</strong> {author.summary}
         {` `}
+        <a href={`${siteUrl}`}>Portfolio</a>
         <a href={`https://instagram.com/${social.instagram}`}>
-          You can follow me on Instagram
+          You can contact me on Instagram
         </a>
       </p>
     </div>
