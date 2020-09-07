@@ -60,10 +60,9 @@ const Bio = () => {
       <p>
         Written by <strong>{author.name}</strong> {author.summary}
         {` `}
-        <a href={`${siteUrl}`}>Portfolio</a>
-        <a href={`https://instagram.com/${social.instagram}`}>
-          You can contact me on Instagram
-        </a>
+        <a href={`${siteUrl}`}>My Portfolio</a>
+        You can contact me on
+        <a href={`https://instagram.com/${social.instagram}`}>Instagram</a>
       </p>
     </div>
   )
